@@ -1,5 +1,9 @@
+:root {
+    --emphasis-color: #00008B
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--emphasis-color);
     padding: 10px;
 }
 
@@ -10,7 +14,7 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--emphasis-color);
 }
 
 main img {
