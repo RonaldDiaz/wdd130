@@ -1,17 +1,11 @@
 :root {
     --primary-color: #0A7E8C;
-    --primary-dark: #086671;
     --secondary-color: #113654;
     --accent-color: #ED9E45;
-    --accent-dark: #D48B39;
-    --accent2-color: #528542;
-    --bg-main: #FFFFFF;
-    --bg-soft: #F0F8FA;
     --text-main: #113654;
-    --text-soft: #526E82;
     --text-light: #FFFFFF;
-    --heading-font: 'Montserrat', sans-serif;
-    --body-font: 'Open Sans', sans-serif;
+    --heading-font: "Trebuchet MS", "Tahoma", sans-serif;
+    --body-font: "Verdana", "Geneva", sans-serif;
 }
 
 * {
@@ -37,6 +31,7 @@ article {
 
 header {
     background-color: var(--primary-color);
+    color: var(--text-light);
     padding: 15px;
     align-items: center;
     display: flex;
@@ -57,7 +52,8 @@ nav ul li a {
     font-family: var(--heading-font);
     text-decoration: none;
     color: var(--text-light);
-    font-weight: 600;
+    font-weight: 800;
+    font-size: large;
 }
 
 body {
@@ -69,6 +65,7 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--text-main);
+    font-weight: 800;
 }
 
 h1 {
