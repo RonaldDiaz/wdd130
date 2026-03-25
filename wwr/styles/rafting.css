@@ -4,11 +4,14 @@
     --accent-color: #ED9E45;
     --text-main: #113654;
     --text-light: #FFFFFF;
+    --shadow: rgba(0, 0, 0, 0.1);
     --heading-font: "Trebuchet MS", "Tahoma", sans-serif;
     --body-font: "Verdana", "Geneva", sans-serif;
 }
 
-* {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -140,7 +143,7 @@ h2 {
     height: auto;
     place-self: center;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px var(--shadow);
 }
 
 .adventures-container {
@@ -153,7 +156,7 @@ h2 {
     width: 100%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px var(--shadow);
 }
 
 .adventures figure {
@@ -185,6 +188,7 @@ footer p {
     display: flex;
     gap: 15px;
     justify-self: center;
+    text-decoration: none;
 }
 
 .socialmedia a img {
