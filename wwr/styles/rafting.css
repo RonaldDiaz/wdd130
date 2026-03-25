@@ -188,6 +188,9 @@ footer p {
     display: flex;
     gap: 15px;
     justify-self: center;
+}
+
+.socialmedia a {
     text-decoration: none;
 }
 
