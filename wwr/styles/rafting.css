@@ -231,11 +231,24 @@ textarea {
     font-size: 1.1rem;
 }
 
+.purpose-container {
+    grid-column: 1/3;
+    border: none;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.purpose-title {
+    place-self: center;
+    float: left;
+}
+
 .contact-radio {
     display: grid;
     place-self: stretch;
     align-items: center;
-    grid-template-columns: auto auto;
+    justify-content: left;
+    grid-template-columns: 30px 100%;
 }
 
 .contact-container textarea {

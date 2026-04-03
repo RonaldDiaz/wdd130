@@ -45,15 +45,18 @@
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" placeholder="Please enter your email"
                   required>
-                <label for="purpose">Message Purpose</label>
-                <div class="contact-radio">
-                    <input type="radio" name="purpose" id="general" value="general">
-                    <label for="general">General Inquiry</label>
-                    <input type="radio" name="purpose" id="reservation" value="reservation" checked>
-                    <label for="reservation">Reservation Question</label>
-                    <input type="radio" name="purpose" id="suggestion" value="suggestion">
-                    <label for="suggestion">Website Suggestion</label>
-                </div>
+                <fieldset class="purpose-container">
+                    <legend class="purpose-title">Message Purpose</legend>
+                    <div class="contact-radio">
+                        <input type="radio" name="purpose" id="general" value="general">
+                        <label for="general">General Inquiry</label>
+                        <input type="radio" name="purpose" id="reservation" value="reservation"
+                          checked>
+                        <label for="reservation">Reservation Question</label>
+                        <input type="radio" name="purpose" id="suggestion" value="suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
+                </fieldset>
                 <label class="double-column-label" for="message">Message</label>
                 <textarea name="message" id="message" placeholder="Type here" required></textarea>
                 <div class="subscribe-container">
@@ -69,8 +72,7 @@
                 <figcaption>Jhon Kerry - Rafting Instructor</figcaption>
             </figure>
             <figure>
-                <img src="images/rafting-instructor-supervisor.jpg"
-                  alt="Julia Nakayama - Rafting Supervisor">
+                <img src="images/rafting-supervisor.jpg" alt="Julia Nakayama - Rafting Supervisor">
                 <figcaption>Julia Nakayama - Rafting Supervisor</figcaption>
             </figure>
             <figure>
