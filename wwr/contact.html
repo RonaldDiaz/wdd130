@@ -32,53 +32,59 @@
                 +582645557890<br>
                 ayapainaraftingadventure@mail.com
             </p>
-        </section>
-        <section class="contact-container">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3473.2403071383465!2d-72.55093225877856!3d10.058410937162874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDAzJzMwLjMiTiA3MsKwMzInNTcuOCJX!5e1!3m2!1ses!2sve!4v1775064605121!5m2!1ses!2sve"
-              width="400" height="320" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <form>
-                <label for="fullname">Name</label>
-                <input type="text" id="fullname" name="fullname"
-                  placeholder="Please enter your name" required>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="Please enter your email"
-                  required>
-                <fieldset class="purpose-container">
-                    <legend class="purpose-title">Message Purpose</legend>
-                    <div class="contact-radio">
-                        <input type="radio" name="purpose" id="general" value="general">
-                        <label for="general">General Inquiry</label>
-                        <input type="radio" name="purpose" id="reservation" value="reservation"
-                          checked>
-                        <label for="reservation">Reservation Question</label>
-                        <input type="radio" name="purpose" id="suggestion" value="suggestion">
-                        <label for="suggestion">Website Suggestion</label>
+            <div class="contact-container">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3473.2403071383465!2d-72.55093225877856!3d10.058410937162874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDAzJzMwLjMiTiA3MsKwMzInNTcuOCJX!5e1!3m2!1ses!2sve!4v1775064605121!5m2!1ses!2sve"
+                  width="400" height="320" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <form class="contact-form">
+                    <label for="fullname">Name</label>
+                    <input type="text" id="fullname" name="fullname"
+                      placeholder="Please enter your name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email"
+                      placeholder="Please enter your email" required>
+                    <fieldset class="purpose-container">
+                        <legend class="purpose-title">Message Purpose</legend>
+                        <div class="contact-radio">
+                            <input type="radio" name="purpose" id="general" value="general">
+                            <label for="general">General Inquiry</label>
+                            <input type="radio" name="purpose" id="reservation" value="reservation"
+                              checked>
+                            <label for="reservation">Reservation Question</label>
+                            <input type="radio" name="purpose" id="suggestion" value="suggestion">
+                            <label for="suggestion">Website Suggestion</label>
+                        </div>
+                    </fieldset>
+                    <label class="double-column-label" for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Type here"
+                      required></textarea>
+                    <div class="subscribe-container">
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                        <label for="subscribe">Please Subscribe me to the monthly newsletter</label>
                     </div>
-                </fieldset>
-                <label class="double-column-label" for="message">Message</label>
-                <textarea name="message" id="message" placeholder="Type here" required></textarea>
-                <div class="subscribe-container">
-                    <input type="checkbox" id="subscribe" name="subscribe">
-                    <label for="subscribe">Please Subscribe me to the monthly newsletter</label>
-                </div>
-                <button type="submit">Get in Touch!</button>
-            </form>
+                    <button type="submit">Get in Touch!</button>
+                </form>
+            </div>
         </section>
         <section class="instructors">
-            <figure>
-                <img src="images/rafting-instructor.jpg" alt="Jhon Kerry - Rafting Instructor">
-                <figcaption>Jhon Kerry - Rafting Instructor</figcaption>
-            </figure>
-            <figure>
-                <img src="images/rafting-supervisor.jpg" alt="Julia Nakayama - Rafting Supervisor">
-                <figcaption>Julia Nakayama - Rafting Supervisor</figcaption>
-            </figure>
-            <figure>
-                <img src="images/rafting-instructor-2.jpg" alt="Boyd Bodala - Rafting Instructor">
-                <figcaption>Boyd Bodala - Rafting Instructor</figcaption>
-            </figure>
+            <h2>We are here to serve you!</h2>
+            <div class="instructors-container">
+                <figure>
+                    <img src="images/rafting-instructor.jpg" alt="Jhon Kerry - Rafting Instructor">
+                    <figcaption>Jhon Kerry - Rafting Instructor</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting-supervisor.jpg"
+                      alt="Julia Nakayama - Rafting Supervisor">
+                    <figcaption>Julia Nakayama - Rafting Supervisor</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting-instructor-2.jpg"
+                      alt="Boyd Bodala - Rafting Instructor">
+                    <figcaption>Boyd Bodala - Rafting Instructor</figcaption>
+                </figure>
+            </div>
         </section>
     </main>
     <footer class="footer">
