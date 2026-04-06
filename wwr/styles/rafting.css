@@ -56,11 +56,12 @@ nav ul li a {
     color: var(--text-light);
     font-weight: 800;
     font-size: 1.2rem;
+    transition: 0.3s;
 }
 
 nav ul li a:hover {
     color: var(--accent-color);
-    transition: 0.3s;
+
 }
 
 body {
@@ -76,7 +77,6 @@ h2 {
 }
 
 h1 {
-    width: 100%;
     padding: 16px;
     text-align: center;
 }
@@ -99,7 +99,6 @@ h1 {
 .subtitle-trips {
     text-transform: uppercase;
     text-shadow: 2px 2px 4px var(--shadow-strong), 0 0 4px var(--shadow);
-    font-family: var(--heading-font);
     color: var(--text-light);
 }
 
@@ -112,6 +111,7 @@ h1 {
 .subtitle-trips {
     font-size: 1.4rem;
     font-weight: 900;
+    font-family: var(--heading-font);
 }
 
 .trips .hero-content {
@@ -141,7 +141,6 @@ h1 {
 }
 
 .hero .title-about {
-    top: 0px;
     opacity: 0.7;
     background-color: var(--secondary-color);
 }
@@ -180,9 +179,10 @@ h1 {
     margin: 10px;
     float: right;
     border-radius: 8px;
+    filter: none;
 }
 
-h2 {
+.title-section {
     margin-top: 16px;
     margin-bottom: 16px;
     padding: 10px;
@@ -275,8 +275,9 @@ footer p {
     margin: 0 40px;
     display: grid;
     grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr 1fr 2fr 1fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr auto 2fr auto 1fr;
     align-items: center;
+    text-align: left;
 }
 
 input,
@@ -312,12 +313,8 @@ textarea {
 
 .contact-container button {
     grid-column: 1/3;
-    place-self: stretch;
     margin: 2px 0;
-    background-color: var(--primary-color);
-    color: var(--text-light);
     border: none;
-    border-radius: 4px;
     box-shadow: 0 4px 8px var(--shadow);
 }
 
@@ -383,10 +380,9 @@ textarea {
 }
 
 .newsletter h2 {
-    margin: 0;
+    color: var(--text-light);
     width: 50%;
     font-size: 2rem;
-    text-align: left;
     padding: 10px 0;
 }
 
