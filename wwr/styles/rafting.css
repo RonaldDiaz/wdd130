@@ -165,12 +165,13 @@ h1 {
     background-color: var(--accent-color);
     padding: 10px;
     border-radius: 8px;
-    opacity: 0.92;
+
 }
 
 .hero p {
     padding: 0;
     margin: 10px;
+    color: var(--text-light);
 }
 
 .hero article img {
