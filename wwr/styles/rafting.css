@@ -169,7 +169,8 @@ h1 {
 }
 
 .hidden {
-    height: 1px;
+    height: 0px;
+    color: var(--text-light);
     overflow: hidden;
 }
 
