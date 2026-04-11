@@ -168,6 +168,11 @@ h1 {
 
 }
 
+.hidden {
+    height: 1px;
+    overflow: hidden;
+}
+
 .hero p {
     padding: 0;
     margin: 10px;
